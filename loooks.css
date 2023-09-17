@@ -13,6 +13,11 @@ li {
   list-style: none;
 }
 
+.nav-colored { background-color:#000; }
+.nav-transparent { background-color:transparent;}
+
+
+
 a {
   color:indianred;
   text-decoration: none;
