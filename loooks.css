@@ -4,7 +4,6 @@ body {
   position:relative;
   }
 header {
-  background-color: white;
   position: fixed;
   width: 100%;
   z-index: +1;
@@ -13,17 +12,13 @@ li {
   list-style: none;
 }
 
-.nav-colored { background-color:#000; }
-.nav-transparent { background-color:transparent;}
-
-
 
 a {
-  color:indianred;
   text-decoration: none;
 }
 
 .navbar{
+  background-color:transparent;
   min-height: 70px;
   display: flex;
   justify-content: space-between;
@@ -39,10 +34,12 @@ a {
 }
 
 .nav-branding {
+  color: white;
   font-size: 3rem;
 }
 
 .nav-link {
+  color: white;
   transition: 0,7s ease;
 }
 
