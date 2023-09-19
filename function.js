@@ -11,16 +11,35 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click" ,
     navMenu.classList.remove("active");
 }))
 const navbar = document.querySelector('.navbar');
-const navLink = document.querySelectorAll('.nav-');
+const navBrand = document.querySelector('.nav-branding'); // Select the branding/logo element
+const navItems = document.querySelectorAll('.nav-item'); // Select all nav-items
 
-// Function to change navbar color on scroll
+// Function to change navbar elements' color on scroll for larger screens
 function changeNavbarColorOnScroll() {
-    if (window.scrollY > 10) {
-        navbar.style.backgroundColor = 'white'; // Change background to white on scroll
-        navLink.style.color = 'indianred'; // Change text color to indianred on scroll
-    } else {
-        navbar.style.backgroundColor = 'transparent'; // Reset background to transparent when at the top
-        navLink.style.color = 'white'; // Reset text color to white when at the top
+    if (window.innerWidth > 768) { // Check viewport width
+        if (window.scrollY > 10) {
+            navbar.style.backgroundColor = 'white'; // Change background to white on scroll
+            navBrand.style.color = 'indianred'; // Change branding/logo color to indianred on scroll
+
+            // Loop through each nav-item and change text color to indianred
+            navItems.forEach(navItem => {
+                const navLink = navItem.querySelector('.nav-link');
+                if (navLink) {
+                    navLink.style.color = 'indianred';
+                }
+            });
+        } else {
+            navbar.style.backgroundColor = 'transparent'; // Reset background to transparent when at the top
+            navBrand.style.color = 'white'; // Reset branding/logo color to white when at the top
+
+            // Loop through each nav-item and change text color to white
+            navItems.forEach(navItem => {
+                const navLink = navItem.querySelector('.nav-link');
+                if (navLink) {
+                    navLink.style.color = 'white';
+                }
+            });
+        }
     }
 }
 
