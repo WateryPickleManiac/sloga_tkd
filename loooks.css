@@ -152,67 +152,7 @@ transition: background-color 0.3s ease-in-out;
 background-color: #fff;
 color: #000;
 }
-.classes {
-background-image:url("https://i.ibb.co/2MPDV5C/pexels-rdne-stock-project-7045408.jpg");
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
-}
 
-.content-container {
-text-align: center;
-}
-
-.content {
-display: inline-block;
-width: 30%;
-background-color: #f7f7f7;
-padding: 0px;
-margin: 0px 1%;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-border-radius: 10px;
-transition: all 0.2s ease-in-out;
-position: relative;
-cursor: pointer;
-}
-
-
-.content h3 {
-font-size: 1.5em;
-font-weight: bold;
-margin-bottom: 0px;
-color: white;
-top:0;
-right:0;
-padding: 10px;
-}
-
-.content p {
-font-size: 0.9em;
-line-height: 1.5em;
-color: white;
-
-}
-
-.content img {
-display: block;
-margin: 0 auto;
-max-width: 100%;
-min-height:70%;
-filter:brightness(0.6)
-}
-
-.content-text {
-  position:absolute;
-  top: 15%;
-  z-index: 100;
-  padding:40px
-}
-
-.content:hover {
-transform: translateY(-10px);
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 
 body, html {
   height: 100%;
@@ -221,9 +161,23 @@ body, html {
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
+.parent{
+  width: 100vw;
+  display: flex;
+}
 
+.programs {
+  width: 50vw;
+  float: left;
+  height: auto;
+}
 
-
+.special-offers{
+  width: 49vw;
+  float: right;
+  height: auto;
+  
+}
 
 .footer {
 position: relative;
@@ -305,18 +259,7 @@ nav li {
 h2 {
   font-size: 24px;
 }
-.content-container {
-  display:grid;
-  height:fit-content;
-  }
-.content {
-  width:fit-content;
-  margin:1%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.2s ease-in-out;
-  cursor:pointer;
-  transform: translate(5%, 0);
-  }
+
 
 }
 
