@@ -113,7 +113,7 @@ body, html {
 
 .parent-container{
   width: 100%;
-  height: 50%;
+  height: 60%;
   background-color: bisque;
   display: flex;
 }
@@ -151,7 +151,7 @@ body, html {
 }
 
 .benefits-container{
-  height: fit-content;
+  height: 50%;
   width: 100%;
   text-align: center;
 }
