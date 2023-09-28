@@ -151,7 +151,8 @@ body, html {
 }
 
 .benefits-container{
-  height: 50%;
+  display: flex;
+  height: 60%;
   width: 100%;
   text-align: center;
 }
