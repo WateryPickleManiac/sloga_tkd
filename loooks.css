@@ -151,10 +151,29 @@ body, html {
 }
 
 .benefits-container{
-  display: block;
+  display: grid;
   height: 60%;
-  width: 45%;
-  text-align: left;
+  width: 100%;
+  
+}
+
+.benefits-img {
+  background-image: url("https://i.ibb.co/Bc9Dp6s/Max-G-a-cinematic-style-photo-of-a-blek-belt-karateka-on-a-tatam-e04148b1-0e1b-4ddf-ae3d-6823e3a63c1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 213%;
+}
+
+.benefits-container h2 {
+  display: block;
+  position: relative;
+  height: fit-content;
+  text-align: center;
+  color: white;
+  top: -5%;
+  font-size: 180%;
 }
 
 .about-container{
