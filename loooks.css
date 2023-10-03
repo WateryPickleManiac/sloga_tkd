@@ -151,8 +151,8 @@ body, html {
 }
 
 .benefits-container{
-  display: grid;
-  height: 80%;
+  display: contents;
+  height: fit-content;
   width: 100%;
   
 }
@@ -163,7 +163,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 213%;
+  height: 24%;
 }
 
 .benefits-container h2 {
@@ -172,8 +172,24 @@ body, html {
   height: fit-content;
   text-align: center;
   color: white;
-  top: -5%;
-  font-size: 180%;
+  top: -46px;
+  font-size: 300%;
+  margin: 0;
+}
+
+.kick-container {
+  display: contents;
+  height: fit-content;
+  width: 100%;
+}
+
+.kick-img {
+  background-image: url("https://i.ibb.co/5WNL4KW/pexels-annushka-ahuja-7991675.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 24%;
 }
 
 .about-container{
