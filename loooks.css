@@ -2,7 +2,9 @@ body {
   margin:0;
   font-family:Roboto;
   position:relative;
+  background-image: url();
   }
+
 header {
   position: fixed;
   width: 100%;
@@ -150,7 +152,21 @@ body, html {
   text-transform: uppercase;
 }
 
+.intro-container {
+  display: block;
+  position: relative;
+  width: 40%;
+  height: 60%;
+  padding: 5%;
+}
 
+.achievements-container {
+  display: block;
+  position: relative;
+  width: 90%;
+  height: 60%;
+  padding: 5%;
+}
 
 
 
