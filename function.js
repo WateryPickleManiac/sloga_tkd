@@ -46,3 +46,38 @@ function changeNavbarColorOnScroll() {
 // Listen for the scroll event and call the function
 window.addEventListener('scroll', changeNavbarColorOnScroll);
 
+let slideIndex = 0;
+showSlides(slideIndex);
+
+function showSlides(n) {
+    let slides = document.getElementsByClassName("slide");
+    let thumbnails = document.getElementsByClassName("thumbnail");
+    
+    if (n >= slides.length) {
+        slideIndex = 0;
+    }
+    if (n < 0) {
+        slideIndex = slides.length - 1;
+    }
+
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    
+    for (let i = 0; i < thumbnails.length; i++) {
+        thumbnails[i].style.border = "2px solid #ccc";
+    }
+    
+    slides[slideIndex].style.display = "block";
+    thumbnails[slideIndex].style.border = "2px solid #f00";
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+// Automatically advance the slideshow
+setInterval(() => {
+    showSlides(++slideIndex);
+}, 3000);
+
