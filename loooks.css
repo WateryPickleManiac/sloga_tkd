@@ -163,10 +163,10 @@ body, html {
 
 .intro-img{
   position: absolute;
-  right: 20%;
+  right: 10%;
   top: 30%;
   z-index: 3;
-  size: 30%;
+  height: 50%;
 }
 
 .intro-text {
@@ -174,7 +174,7 @@ body, html {
   background: transparent;
   position: absolute;
   padding: 5%;
-  width: 50%;
+  width: 30%;
   float: right;
   z-index: 9;
 }
@@ -183,6 +183,8 @@ body, html {
   color: indianred;
   font-size: 3em;
   margin: 0;
+  position: absolute;
+  padding: 5%;
 }
 
 .watermark {
@@ -194,33 +196,39 @@ body, html {
   z-index: 2;
   opacity: 0.5;
   right: 18%;
-  bottom: 20%;
+  bottom: 25%;
   -webkit-text-stroke:2px;
   -webkit-text-stroke-color: #000;
 }
 
 
-#Achievements h2 {
-  font-size: 3em;
-  padding: 40px;
-}
 
 .achievements-container {
   display: block;
   position: relative;
-  width: 90%;
+  width: 100%;
   height: fit-content;
-  padding: 5%;
+}
+
+.achievement-background{
+  background-image: url("https://i.ibb.co/qp0G08K/Max-G-a-cinematic-style-photo-of-a-blek-belt-karateka-on-a-tatam-e04148b1-0e1b-4ddf-ae3d-6823e3a63c1.webp");
+  height: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
 }
 
 .achievements-container h2 {
   font-size: 3em;
   color: indianred;
+  margin: 0;
 }
 
 .achicont {
   display: flex;
-
 }
 
 .achievement {
@@ -232,6 +240,22 @@ body, html {
   font-size: 2em;
 }
 
+.gallery-container ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-container li {
+  height: 40vh;
+  flex-grow: 1;
+}
+
+.gallery-container img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
 
 .footer {
 position: relative;
