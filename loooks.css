@@ -210,16 +210,7 @@ body, html {
   height: fit-content;
 }
 
-.achievement-background{
-  background-image: url("https://i.ibb.co/qp0G08K/Max-G-a-cinematic-style-photo-of-a-blek-belt-karateka-on-a-tatam-e04148b1-0e1b-4ddf-ae3d-6823e3a63c1.webp");
-  height: 50%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  z-index: 0;
-}
+
 
 .achievements-container h2 {
   font-size: 3em;
@@ -230,6 +221,7 @@ body, html {
 .achicont {
   position: relative;
   display: flex;
+  height: 60%;
   z-index: 1;
 }
 
@@ -246,6 +238,7 @@ body, html {
 .gallery-container ul {
   display: flex;
   flex-wrap: wrap;
+  padding: 0;
 }
 
 .gallery-container li {
