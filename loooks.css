@@ -10,6 +10,7 @@ header {
   width: 100%;
   z-index: 10;
 }
+
 li {
   list-style: none;
 }
@@ -184,7 +185,7 @@ body, html {
   font-size: 3em;
   margin: 0;
   position: absolute;
-  padding: 20px;
+  padding: 100px;
 }
 
 .watermark {
@@ -207,14 +208,15 @@ body, html {
   display: grid;
   position: relative;
   width: 100%;
-  height: 80%;
+  height: 100%;
   align-content: space-evenly;
 }
 
 .achievement-title {
   font-size: 3em;
   color: indianred;
-  padding: 20px;
+  padding-left: 100px;
+  margin: 0;
 }
 
 .achicont {
@@ -246,8 +248,8 @@ body, html {
   font-size: 1746%;
   z-index: -1;
   opacity: 0.5;
-  right: 8%;
-  bottom: 15%;
+  right: 1%;
+  bottom: 10%;
   -webkit-text-stroke:2px;
   -webkit-text-stroke-color: #000;
 }
@@ -255,25 +257,22 @@ body, html {
 .gallery-title{
   font-size: 3em;
   color: indianred;
-  margin: 0;
 }
 
-.gallery-container ul {
+.gallery-container{
   display: flex;
   flex-wrap: wrap;
-  padding: 0;
+  padding: 0 4px;
 }
 
-.gallery-container li {
-  height: 40vh;
-  flex-grow: 1;
+.column{
+  flex: 50%;
+  padding: 0 4px;
 }
 
-.gallery-container img {
-  max-height: 100%;
-  min-width: 100%;
-  object-fit: cover;
-  vertical-align: bottom;
+.column img{
+  margin-top: 8px;
+  vertical-align: middle;
 }
 
 .footer {
