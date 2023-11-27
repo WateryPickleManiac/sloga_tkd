@@ -84,7 +84,6 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  z-index: -1;
 }
 
 /* Place text in the middle of the image */
@@ -101,13 +100,13 @@ h2 {
 .button {
   border: 2px solid #fff;
   color: #fff;
-  background: transparent;
+  background-color: transparent;
   padding: 20px 50px;
   transition: background-color 0.3s ease-in-out;
 }
 
-#Home .button:hover {
-  background-color: #fff;
+.button:hover {
+  background-color:white;
   color: #000;
 }
 
@@ -159,7 +158,8 @@ body, html {
 }
 
 #Intro{
-  display: block;
+  display: flex;
+  position: relative;
   height: 100%;
   width: 100%;
   align-items: center;
@@ -210,11 +210,11 @@ body, html {
   color: white;
   display: flex;
   position:absolute;
-  font-size: 1746%;
+  font-size: 19rem;
   z-index: -1;
   opacity: 0.5;
-  right: 18%;
-  bottom: 25%;
+  right: 19%;
+  bottom: 50%;
   -webkit-text-stroke:2px;
   -webkit-text-stroke-color: #000;
   white-space: nowrap;
@@ -234,7 +234,7 @@ body, html {
   width: 100%;
   height: fit-content;
   align-content: space-evenly;
-  top: 25%;
+  top: 35%;
 }
 
 .achievement-title {
@@ -268,11 +268,11 @@ body, html {
   color: white;
   display: flex;
   position:absolute;
-  font-size: 1746%;
+  font-size: 20rem;
   z-index: -1;
   opacity: 0.5;
   right: 1%;
-  bottom: 10%;
+  bottom: 47%;
   -webkit-text-stroke:2px;
   -webkit-text-stroke-color: #000;
 }
@@ -391,6 +391,63 @@ color: #fff;
 margin: 15px 0 10px 0;
 font-size: 1rem;
 font-weight: 300;
+}
+
+#Forma-upisa{
+  width: 100%;
+  height: 100%;
+  background-image:linear-gradient(to bottom, rgba(139, 0, 0, 0.7), rgba(102, 0, 0, 0.7)),url("https://i.ibb.co/WH7nScn/pexels-artem-podrez-6253302.jpg");
+  opacity: 0.8;
+
+/* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.forma-container{
+  position: relative;
+  display: flow;
+  width: fit-content;
+  top: 19%;
+  left: 27%;
+  padding: 13%;
+  background-color: white;
+  
+}
+
+#Raspored-treninga{
+  width: 100%;
+  height: 100%;
+  background-image:linear-gradient(to bottom, rgba(139, 0, 0, 0.7), rgba(102, 0, 0, 0.7)),url("https://i.ibb.co/XX7ZvC7/pexels-artem-podrez-6253307-1.jpg");
+  opacity: 0.8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.Raspored-container{
+  position: relative;
+  display: flow;
+  width: fit-content;
+  top: 19%;
+  left: 27%;
+  padding: 13%;
+  background-color: white;
+}
+
+.Raspored-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.Raspored-container th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+.Raspored-container th {
+  background-color: #f2f2f2;
 }
 
 
