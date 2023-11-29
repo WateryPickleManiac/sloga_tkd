@@ -69,7 +69,17 @@ function showSlides() {
 
 function toggleExpand(item) {
     const expandContent = item.querySelector('.expand-content');
-    expandContent.style.display = (expandContent.style.display === 'block') ? 'none' : 'block';
+    const allExpandContents = document.querySelectorAll('.expand-content');
+  
+    if (expandContent.classList.contains('active')) {
+      expandContent.classList.remove('active');
+      item.querySelector('.toggle-icon').innerText = '+';
+    } else {
+      allExpandContents.forEach(content => {
+        content.classList.remove('active');
+      });
+      expandContent.classList.add('active');
+      item.querySelector('.toggle-icon').innerText = '-';
+    }
   }
   
-
