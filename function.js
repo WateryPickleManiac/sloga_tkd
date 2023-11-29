@@ -67,3 +67,9 @@ function showSlides() {
 }
 
 
+function toggleExpand(item) {
+    const expandContent = item.querySelector('.expand-content');
+    expandContent.style.display = (expandContent.style.display === 'block') ? 'none' : 'block';
+  }
+  
+
