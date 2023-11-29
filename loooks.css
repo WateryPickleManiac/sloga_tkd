@@ -294,9 +294,10 @@ body, html {
                        'svjetsko svjetsko svjetsko cup cup'
                        'svjetsko svjetsko svjetsko cup cup';
   position: relative;
-  width:100%;
+  width:93%;
   height: fit-content;
   gap: 20px;
+  padding: 3%;
 }
 
 .cup {
