@@ -222,13 +222,14 @@ body, html {
 
 #Achievements{
   width: 100%;
-  height: 100%;
+  height: 50%;
   position: relative;
-
+  transform-origin: bottom left;
+  transform: skewY(-5deg);
 }
 
 .achievement-background{
-  height: 80%;
+  height: 100%;
   width: 100%;
 }
 
@@ -245,21 +246,33 @@ body, html {
   height: fit-content;
   width: 100%;
   z-index: 1;
-  bottom: 0;
+  bottom: 25%;
 }
 
-.achicont p {
+.number{
+  margin: 0;
+  color: white;
+  font-size: xxx-large;
+}
+
+.achi-text-white {
+  margin: 0;
+  color: white;
+}
+
+.achi-text-red {
+  margin: 0;
   color: indianred;
 }
 
 .achievement {
   text-align: center;
   flex: 1;
-  height: 300px;
+  height: fit-content;
   width: 20%;
   margin: 5px;
   font-size: 2em;
-  background-color:white;
+  background-color:transparent;
 }
 
 
@@ -552,12 +565,26 @@ font-weight: 300;
 }
 
 .expand-content.active {
+  display: flex;
   max-height:200px;
   padding: 2%;
 }
 
 .toggle-icon {
   font-weight: bold;
+}
+
+.program-button{
+  border: 2px solid indianred;
+  color: indianred;
+  background-color: transparent;
+  padding: 20px 50px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.program-button:hover {
+  background-color:indianred;
+  color:white;
 }
 
 /* Regular styles for larger screens */
