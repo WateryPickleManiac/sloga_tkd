@@ -1,4 +1,9 @@
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+  display: none;
+}
+
 *, *:before, *:after{
   scroll-behavior: smooth;
   box-sizing: border-box;
@@ -428,6 +433,11 @@ font-weight: 300;
   flex-direction: row-reverse;
 }
 
+.forma-container h2{
+  color: indianred;
+  font-size: 2em;
+}
+
 input {
   border: none;
   outline: none;
@@ -451,6 +461,11 @@ input:focus {
 
 .forma-container h2{
   padding: 1em;
+}
+
+.contact-part{
+  display: flex;
+  align-items: center;
 }
 
 #Raspored-treninga{
@@ -544,7 +559,7 @@ input:focus {
 }
 
 .program-hero-image{
-  height: 60%;
+  height: 50%;
   width: 100%;
   position: relative;
   background-image:linear-gradient(to bottom, rgba(139, 0, 0, 0.7), rgba(102, 0, 0, 0.7)),url("https://i.ibb.co/rksk50n/pexels-cottonbro-studio-4428290.jpg");
@@ -556,12 +571,14 @@ input:focus {
 
 .program-text {
   text-align: left;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   font-size: 3em;
+  height: 100%;
+  margin: 0;
 }
 
 .Program-container{
@@ -572,7 +589,6 @@ input:focus {
   justify-content: center;
   width: 100%;
   height: 48%;
-  top: -15%;
   background-color: white;
   align-content: center;
 }
