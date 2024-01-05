@@ -13,7 +13,6 @@ body {
   margin:0;
   font-family:Roboto;
   position:relative;
-  background-image: url();
 }
 
 header {
@@ -80,32 +79,37 @@ h2 {
 
 }
 
-
-
-/* The hero image */
-.hero-image {
-/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(to bottom, rgba(139, 0, 0, 0.7), rgba(102, 0, 0, 0.7)), url("https://i.ibb.co/zJN5Pcn/279547192-5047329058654372-5842225151927629582-n.jpg");
-  opacity: 0.8;
-  /* Set a specific height */
-  height: 100%;
-
-/* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.hero-video-container{
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
+
+.hero-video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%) contrast(80%);
+}
+
+
 
 /* Place text in the middle of the image */
 .hero-text {
   text-align: left;
+  display: flex;
   position: absolute;
-  top: 50%;
-  left: 45%;
-  transform: translate(-50%, -50%);
+  height: 100%;
+  padding: 15%;
   color: white;
   font-size: 3em;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .button {
@@ -114,6 +118,7 @@ h2 {
   background-color: transparent;
   padding: 14px 50px;
   transition: background-color 0.3s ease-in-out;
+  margin: 5px;
 }
 
 .button:hover {
@@ -169,75 +174,38 @@ body, html {
 }
 
 #Intro{
+height: 100%;
+width: 100%;
+}
+
+.intro-container{
   display: flex;
-  position: relative;
-  height: 100%;
-  width: 100%;
   align-items: center;
+  justify-content: center;
 }
 
-.intro-container {
-  display: flex;
-  position: relative;
-  height: fit-content;
-  width: fit-content;
-  justify-content: space-between;
-  gap: 30px;
-
-}
-
-.intro-img{
-  display: block;
-  position: relative;
-  z-index: 3;
-  height: 50%;
-  width: 50%;
-  padding: 5%;
-}
-
-.intro-img img{
-  width: 100%;
-  height: 100%;
+.intro-img {
+  max-width: 25%;
+  max-height:15%;
+  float: left;
 }
 
 .intro-text {
-  display: block;
-  background: transparent;
-  position: relative;
-  padding: 5%;
-  z-index: 9;
-  width: 40%;
-}
-
-.intro-title{
-  color: indianred;
-  font-size: 3em;
-  margin: 0;
-  position: relative;
-  padding: 50px;
-}
-
-.watermark {
-  color: white;
-  display: flex;
-  position:absolute;
-  font-size: 19rem;
-  z-index: -1;
-  opacity: 0.5;
-  right: 19%;
-  bottom: 50%;
-  -webkit-text-stroke:2px;
-  -webkit-text-stroke-color: #000;
-  white-space: nowrap;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 20%;
+  float: left;
 }
 
 #Achievements{
   width: 100%;
   height: 50%;
   position: relative;
-  transform-origin: bottom left;
 }
+
 .achievement-background{
+  position: relative;
+  display: flex;
   height: 100%;
   width: 100%;
 }
@@ -252,10 +220,12 @@ body, html {
 .achicont {
   position: absolute;
   display: flex;
-  height: fit-content;
   width: 100%;
-  z-index: 1;
-  bottom: 25%;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  height: 100%;
+  flex-wrap: wrap;
 }
 
 .number{
@@ -473,7 +443,7 @@ button {
   width: fit-content;
   min-width: 100px;
   height: 45px;
-  padding: 8px;
+  padding: 14px 50px;
   border-radius: 5px;
   border: 2.5px solid #E0E1E4;
   box-shadow: 0px 0px 20px -20px;
@@ -756,3 +726,31 @@ h2 {
   }
  
 
+  @media(max-width:962px){
+    #Achievements{
+      width: 100%;
+      height:100%;
+      position: relative;
+    }
+    .achievement-background{
+      position: relative;
+      display: flex;
+      height: 100%;
+      width: 100%;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+    }
+    .achicont{
+      position: absolute;
+      display: grid;
+      height: fit-content;
+      width: 100%;
+      align-content: center;
+      justify-content: center;
+      justify-items: center;
+      z-index: 2;
+      height: 100%;
+    }
+  }
