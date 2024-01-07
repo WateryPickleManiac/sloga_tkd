@@ -174,28 +174,15 @@ body, html {
 }
 
 #Intro{
-height: 100%;
+height: 98%;
 width: 100%;
 }
 
 .intro-container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display:block;
 }
 
-.intro-img {
-  max-width: 25%;
-  max-height:15%;
-  float: left;
-}
 
-.intro-text {
-  font-size: 20px;
-  padding-left: 20px;
-  padding-top: 20%;
-  float: left;
-}
 
 #Achievements{
   width: 100%;
