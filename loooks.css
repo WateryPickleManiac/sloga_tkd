@@ -205,10 +205,14 @@ width: 100%;
 
 .intro-img{
   position: relative;
-  object-fit:contain ;
+  height: 700px;
+  width: 1000px;
 }
 
-
+.intro-img img{
+  width: 100%;
+  height: 100%;
+}
 
 
 
@@ -217,13 +221,6 @@ width: 100%;
   width: 100%;
   height: 100%;
   position: relative;
-}
-
-.achievement-background{
-  position: relative;
-  display: flex;
-  height: 100%;
-  width: 100%;
 }
 
 
