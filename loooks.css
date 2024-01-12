@@ -195,7 +195,7 @@ width: 100%;
 
 #Achievements{
   width: 100%;
-  height: 250%;
+  height: 300%;
   position: relative;
 }
 
@@ -205,7 +205,7 @@ width: 100%;
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
-
+  padding: 5%;
 }
 
 .achievement2{
@@ -215,9 +215,10 @@ width: 100%;
   justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: row-reverse;
+  padding: 5%;
 }
 
-.achievement2-nums{
+.achievement-nums{
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -228,12 +229,16 @@ width: 100%;
 .achi-text-red {
   margin: 0;
   color: indianred;
-  margin: 0;
+  font-size: 2em;
 }
 
+.middle{
+  font-size: 2em;
+}
 
 .number{
-  font-size: 3em;
+  font-size: 10em;
+  color: indianred;
   margin: 0;
 }
 
@@ -247,16 +252,94 @@ width: 100%;
 }
 
 #QANDA{
+  position: relative;
   height: 100%;
   overflow: hidden;
 
 }
 
-.background-stripe{
-  color: indianred;
-  width: 100%;
+.QANDA-container{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
   height: 50%;
-  transform: rotate(45deg);
+  align-content: center;
+}
+
+.item {
+  width: 80%;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  margin-bottom: 10px;
+  overflow: hidden;
+  box-shadow: 5px 5px;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: indianred;
+  cursor: pointer;
+}
+
+.item-header:hover {
+  background-color: white;
+  color: indianred;
+}
+
+.expand-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.expand-content.active {
+  display: flex;
+  max-height:200px;
+  padding: 2%;
+}
+
+.qanda-cont{
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 95%;
+  align-items: center;
+}
+
+#QANDA h2{
+  display: flex;
+  justify-content: center;
+  font-size: 5em;
+  color: indianred;
+}
+
+.background-stripe{
+  position: absolute;
+  background: indianred;
+  width: 145%;
+  height: 129%;
+  transform: rotate(-45deg);
+  right: -44%;
+  bottom: -62%;
+  z-index: -1;
+}
+
+.background-qanda{
+  width: 50%;
+  height: 93%;
+  display: flex;
+  align-items: center;
+}
+
+.background-qanda img{
+  width: 100%;
+  margin: 40px;
 }
 
 #Social-media{
@@ -290,6 +373,12 @@ width: 100%;
 
 .cup {
   grid-area: cup;
+  overflow: hidden;
+}
+
+.cup img:hover{
+  transform: scale(1.2);
+  transition: 0.7s;
 }
 
 .cup img{
@@ -298,6 +387,7 @@ width: 100%;
 
 .prvenstvo{
   grid-area: prvenstvo;
+  overflow: hidden;
 }
   
 
@@ -305,21 +395,38 @@ width: 100%;
   width: 100%;
 }
 
+.prvenstvo img:hover{
+  transform: scale(1.2);
+  transition: 0.7s;
+}
+
 .svjetsko{
   grid-area: svjetsko;
+  overflow: hidden;
 }
 
 .svjetsko img{
   width: 100%;
 }
 
+.svjetsko img:hover{
+  transform: scale(1.2);
+  transition: 0.7s;
+}
+
 .ledja{
+  overflow: hidden;
   grid-area: ledja;
 }
 
 .ledja img{
   width: 100%;
   height: 100%;
+}
+
+.ledja img:hover{
+  transform: scale(1.2);
+  transition: 0.7s;
 }
 
 .footer {
@@ -585,50 +692,7 @@ button:active {
   margin: 0;
 }
 
-.Program-container{
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 50%;
-  background-color: white;
-  align-content: center;
-}
 
-.item {
-  width: 80%;
-  border: 1px solid #ccc;
-  margin-bottom: 10px;
-  overflow: hidden;
-}
-
-.item-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: #e9e9e9;
-  cursor: pointer;
-}
-
-.item-header:hover {
-  background-color: #dcdcdc;
-}
-
-.expand-content {
-  border-top: 1px solid #ccc;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out;
-}
-
-.expand-content.active {
-  display: flex;
-  max-height:200px;
-  padding: 2%;
-}
 
 .toggle-icon {
   font-weight: bold;
@@ -653,7 +717,6 @@ button:active {
 @media screen and (max-width: 767px) {
 header {
   padding: 5px;
-  background: white;
 }
 
 nav li {
@@ -716,20 +779,34 @@ h2 {
     color: indianred;
   }
 
-  .parent-container{
-    flex-direction: column-reverse;
-    height: 40%;
-    width: 100%;
+  .hero-text{
+    padding: 0;
+    font-size: 2em;
+  }
+  
+  #Intro{
+    height: 140%;
   }
 
-  .programs{
-    width: 100%;
-    max-height: 70%;
+  .intro-img{
+    left: -27%;
+    padding-top: 36%;
   }
 
-  .special-offers{
-    width: 100%;
-    max-height: 70%;
+  .intro-img img{
+    height: 51%;
+  }
+
+  .achhievement-title{
+    height: 55%;
+  }
+
+  .achhievement-title h1{
+    font-size: 3em;
+  }
+
+  #QANDA{
+    font-size: 3em;
   }
 
   }
@@ -738,28 +815,7 @@ h2 {
   @media(max-width:962px){
     #Achievements{
       width: 100%;
-      height:100%;
+      height:300%;
       position: relative;
-    }
-    .achievement-background{
-      position: relative;
-      display: flex;
-      height: 100%;
-      width: 100%;
-      flex-wrap: wrap;
-      align-content: center;
-      justify-content: center;
-      align-items: center;
-    }
-    .achicont{
-      position: absolute;
-      display: grid;
-      height: fit-content;
-      width: 100%;
-      align-content: center;
-      justify-content: center;
-      justify-items: center;
-      z-index: 2;
-      height: 100%;
     }
   }
