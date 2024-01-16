@@ -224,6 +224,7 @@ width: 100%;
   align-content: center;
   flex-wrap: wrap;
   align-items: center;
+  width: 40%;
 }
 
 .achi-text-red {
