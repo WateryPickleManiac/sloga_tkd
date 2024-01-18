@@ -46,26 +46,6 @@ function changeNavbarColorOnScroll() {
 // Listen for the scroll event and call the function
 window.addEventListener('scroll', changeNavbarColorOnScroll);
 
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    let slides = document.getElementsByClassName("slide");
-
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-
-    slideIndex++;
-    if (slideIndex > slides.length) {
-        slideIndex = 1;
-    }
-
-    slides[slideIndex - 1].style.display = "block";
-
-    setTimeout(showSlides, 2000); // Change slides every 2 seconds (2000 milliseconds)
-}
-
 
 function toggleExpand(item) {
     const expandContent = item.querySelector('.expand-content');
