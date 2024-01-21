@@ -79,6 +79,7 @@ h2 {
 
 }
 
+
 .hero-video-container{
   position: relative;
   display: flex;
@@ -136,7 +137,7 @@ body, html {
 
 
 #Intro{
-height: 98%;
+height: fit-content;
 width: 100%;
 }
 
@@ -148,6 +149,7 @@ width: 100%;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  padding: 5%;
 }
 
 .intro-text{
@@ -184,7 +186,7 @@ width: 100%;
 
 .achhievement-title{
   width: 100%;
-  height: 60%;
+  height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -200,7 +202,7 @@ width: 100%;
 
 #Achievements{
   width: 100%;
-  height: 300%;
+  height: fit-content;
   position: relative;
 }
 
@@ -255,13 +257,13 @@ width: 100%;
 }
 
 #Gallery{
-  height: 135%;
+  height: fit-content;
   width: 100%;
 }
 
 #QANDA{
   position: relative;
-  height: 100%;
+  height: fit-content;
   overflow: hidden;
 
 }
@@ -445,7 +447,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-height: 30vh;
+height: fit-content;
+padding: 10%;
 }
 
 .social-icon,
@@ -828,7 +831,11 @@ h2 {
   }
 
   .achhievement-title h1{
-    font-size: 4em;
+    font-size: 3em;
+  }
+
+  .achievement1{
+
   }
 
   #QANDA{
@@ -840,7 +847,7 @@ h2 {
   }
 
   #Achievements{
-    height: 355%;
+    height: 375%;
   }
 
   .achievement1 img{
@@ -858,12 +865,7 @@ h2 {
   }
  
 
-  @media(min-width:769px) and (max-width:1560px){
-    #Achievements{
-      width: 100%;
-      height:312%;
-      position: relative;
-    }
+  @media(min-width:769px) and (max-width:1190px){
 
     .achhievement-title h1{
       font-size: 7em;
@@ -872,7 +874,6 @@ h2 {
   }
 
   @media(max-width:1193px-700px) {
-    #Achievements{
-      height:458%;
-    }
+    
+    
   }
