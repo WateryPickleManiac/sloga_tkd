@@ -79,6 +79,9 @@ h2 {
 
 }
 
+#Home{
+  height: 100%;
+}
 
 .hero-video-container{
   position: relative;
@@ -728,6 +731,7 @@ button:active {
 @media screen and (max-width: 767px) {
 header {
   padding: 5px;
+  position:sticky;
 }
 
 nav li {
@@ -739,10 +743,6 @@ h2 {
   font-size: 24px;
 }
 
-
-}
-
-@media(max-width:768px){
   .hamburger{
       display: block;
   }
@@ -824,30 +824,16 @@ h2 {
     width: 100%;
   }
 
-  
+  #Achievements{
+    height: 375%;
+  }
 
   .achhievement-title{
     height: 55%;
   }
 
   .achhievement-title h1{
-    font-size: 3em;
-  }
-
-  .achievement1{
-
-  }
-
-  #QANDA{
-    font-size: 3em;
-  }
-
-  #QANDA h2{
-    font-size: 2em;
-  }
-
-  #Achievements{
-    height: 375%;
+    font-size: 4em;
   }
 
   .achievement1 img{
@@ -858,8 +844,20 @@ h2 {
     width: 100%;
   }
 
+  .achievement-nums{
+    margin-top: 20px;
+  }
+
   .number{
     font-size: 5em;
+  }
+
+  #QANDA{
+    font-size: 3em;
+  }
+
+  #QANDA h2{
+    font-size: 2em;
   }
 
   }
@@ -871,9 +869,4 @@ h2 {
       font-size: 7em;
     }
 
-  }
-
-  @media(max-width:1193px-700px) {
-    
-    
   }
