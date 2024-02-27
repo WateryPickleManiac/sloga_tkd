@@ -917,6 +917,7 @@ nav li {
 
   .forma-container{
     flex-direction: column-reverse;
+    padding: 40px;
   }
 
   }
