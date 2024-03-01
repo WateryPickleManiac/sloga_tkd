@@ -765,7 +765,7 @@ nav li {
       gap:0;
       top: 0;
       flex-direction: column;
-      background-color: indianred;
+      background-color: red;
       width: 100%;
       text-align: center;
       transition: 0.3s;
