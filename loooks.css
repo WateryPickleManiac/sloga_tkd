@@ -740,6 +740,9 @@ nav li {
   margin-bottom: 10px;
 }
 
+.hero-video-container{
+  height: 140vh;
+}
 
   .hamburger{
       display: block;

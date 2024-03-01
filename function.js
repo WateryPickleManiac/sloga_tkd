@@ -36,3 +36,13 @@ function toggleExpand(item) {
   }
 
 
+  document.addEventListener('DOMContentLoaded', function() {
+    var img = document.getElementById('myImage');
+    
+    if (window.innerWidth < 768) {
+      img.src = "https://i.ibb.co/TtCxgBy/sajt.jpg";
+    } else {
+      img.src = "https://i.ibb.co/qnmgpxZ/sajt-deskt.jpg";
+    }
+  });
+  
