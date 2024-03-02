@@ -735,6 +735,10 @@ header {
   position:sticky;
 }
 
+.navbar{
+  justify-content: flex-end;
+}
+
 nav li {
   display: block;
   margin-bottom: 10px;
