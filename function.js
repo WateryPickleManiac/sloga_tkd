@@ -42,7 +42,7 @@ function toggleExpand(item) {
     if (window.innerWidth < 768) {
       img.src = "https://i.ibb.co/TtCxgBy/sajt.jpg";
     } else {
-      img.src = "https://i.ibb.co/qnmgpxZ/sajt-deskt.jpg";
+      img.src = "https://lh3.googleusercontent.com/pw/AP1GczOXDgERh918MfLwttxvY4dsRozvceng8073Fkl6ULsR4uBRMh_6ZuQY6ySY1n7n1NCVifOMMQ8ise2jJMXYEt-WYrjHu1INv-LeSAinsXNsLlVz5DCl30yle6p-BvYDNl_1hhrqdhWBJKaHsYwZ0mdU=w1440-h578-s-no-gm?authuser=0";
     }
   });
   

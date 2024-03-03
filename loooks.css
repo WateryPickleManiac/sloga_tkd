@@ -17,7 +17,7 @@ body {
 
 header {
   position: sticky;
-  width: 100%;
+  width: 80%;
   z-index: 10;
   background: transparent;
 }
@@ -36,13 +36,12 @@ h2 {
 }
 
 .navbar{
-  min-height: 70px;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 24px;
   background-color: transparent;
-  position: absolute;
+  position: relative;
   width: 100%;
   justify-content: center;
 }
@@ -64,7 +63,7 @@ h2 {
 }
 
 .nav-link {
-  color: black;
+  color: gray;
   transition: 0,7s ease;
 }
 
@@ -88,6 +87,11 @@ h2 {
 
 #Home{
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
 }
 
 .hero-video-container{
@@ -97,32 +101,27 @@ h2 {
   align-content: center;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 54vh;
   overflow: hidden;
+  width: 100%;
 }
 
 
 
 .hero-video-container img{
-  width: 65%;
+  width: 80%;
   object-fit: cover;
-
+  bottom: 100px;
 }
 
+.sponsor-part{
+  background-color: yellowgreen;
+  width: 80%;
+  height: 20vh;
+}
 
-
-/* Place text in the middle of the image */
-.hero-text {
-  text-align: left;
-  display: flex;
-  position: absolute;
+.sponsor-part img { 
   height: 100%;
-  padding: 15%;
-  color: white;
-  font-size: 3em;
-  align-items: center;
-  flex-wrap: wrap;
-  align-content: center;
 }
 
 .button {
