@@ -184,7 +184,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 height: fit-content;
-padding: 5%;
+padding: 3%;
 }
 
 .social-icon,
@@ -245,7 +245,7 @@ font-weight: 300;
   display: flex;
   width: 100%;
   justify-content: center;
-  height: 140vh;
+  height: fit-content;
 }
 
 .text-onama{
@@ -266,13 +266,97 @@ font-weight: 300;
   display: flex;
   width: 100%;
   justify-content: center;
+  height: fit-content;
 }
 
 .rad-img{
-  width: fit-content;
+  width: 30%;
+  padding: 1%;
 }
 
 .rad-text{
+  width: 45%;
+  padding: 1%;
+}
+
+.rad-img img{
+  width: 100%;
+}
+
+#reprezent-cont{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: fit-content;
+}
+
+.reprezent-img{
+  width: 30%;
+  padding: 1%;
+}
+
+.reprezent-img img{
+  width: 100%;
+}
+
+.reprezent-text{
+  width: 45%;
+  padding: 1%;
+}
+
+#treneri{
+  display: flex;
+  justify-content: center;
+}
+
+.treneri-img{
+  width: 30%;
+  padding: 1%;
+}
+
+.treneri-img img{
+  width: 100%;
+}
+
+.treneri-text{
+  width: 45%;
+  padding: 1%;
+}
+
+#lokacija{
+  display: flex;
+  justify-content: center;
+}
+
+.lokacija-img{
+  width: 30%;
+  padding: 1%;
+}
+
+.lokacija-img img{
+  width: 100%;
+}
+
+.lokacija-text{
+  width: 45%;
+  padding: 1%;
+}
+
+#sponzori{
+  display: flex;
+  justify-content: center;
+}
+
+.sponzori-img{
+  width: 30%;
+  padding: 1%;
+}
+
+.sponzori-img img{
+  width: 100%;
+}
+
+.sponzori-text{
   width: 45%;
   padding: 1%;
 }
