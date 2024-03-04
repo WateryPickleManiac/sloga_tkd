@@ -556,6 +556,58 @@ nav li {
     width: 100%;
   }
 
+  #treneri{
+    flex-direction: column-reverse;
+  }
+
+  .treneri-img{
+    width: 100%;
+    padding: 0;
+  }
+
+  .treneri-img img:nth-child(1){
+    display: none;
+  }
+
+  .treneri-img1{
+    width: 100%;
+    padding: 0;
+  }
+
+  .treneri-img1 img{
+    width: 100%;
+  }
+
+  .treneri-text{
+    width: 100%;
+  }
+
+  #lokacija{
+    flex-direction: column-reverse;
+  }
+
+  .lokacija-img{
+    width: 100%;
+    padding: 0;
+  }
+
+  .lokacija-img img:nth-child(1){
+    display: none;
+  }
+
+  .lokacija-img1{
+    width: 100%;
+    padding: 0;
+  }
+
+  .lokacija-img1 img{
+    width: 100%;
+  }
+
+  .lokacija-text{
+    width: 100%;
+  }
+
   }
  
 
