@@ -119,10 +119,11 @@ h2 {
   height: 20vh;
   display: flex;
   justify-content: space-around;
+  margin-top: 10px;
 }
 
 .sponsor-part img { 
-  height: 70%;
+  height: 50%;
 }
 
 .button {
@@ -160,12 +161,11 @@ body, html {
   text-align: center;
   width: 80%;
   color: grey;
+  font-size: 1.3em;
 }
 
-.red-bottom{
-  width: 80%;
-  height: 20vh;
-  background-color: darkred;
+.description p{
+  margin: 5px;
 }
 
 .ending{
@@ -249,8 +249,9 @@ font-weight: 300;
 }
 
 .text-onama{
-  width: 50%;
-  padding: 5%;
+  width: 40%;
+  padding: 1%;
+  color: gray;
 }
 
 .img-onama{
@@ -275,8 +276,9 @@ font-weight: 300;
 }
 
 .rad-text{
-  width: 45%;
+  width: 40%;
   padding: 1%;
+  color: gray;
 }
 
 .rad-img img{
@@ -300,8 +302,9 @@ font-weight: 300;
 }
 
 .reprezent-text{
-  width: 45%;
+  width: 40%;
   padding: 1%;
+  color: gray;
 }
 
 #treneri{
@@ -319,8 +322,9 @@ font-weight: 300;
 }
 
 .treneri-text{
-  width: 45%;
+  width: 40%;
   padding: 1%;
+  color: gray;
 }
 
 #lokacija{
@@ -338,8 +342,9 @@ font-weight: 300;
 }
 
 .lokacija-text{
-  width: 45%;
+  width: 40%;
   padding: 1%;
+  color: gray;
 }
 
 #sponzori{
@@ -357,8 +362,9 @@ font-weight: 300;
 }
 
 .sponzori-text{
-  width: 45%;
+  width: 40%;
   padding: 1%;
+  color: gray;
 }
 
 /* Regular styles for larger screens */
@@ -379,7 +385,7 @@ nav li {
 }
 
 .hero-video-container{
-  height: 140vh;
+  height: fit-content;
 }
 
 .hero-video-container img{
