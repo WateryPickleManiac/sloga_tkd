@@ -608,6 +608,19 @@ nav li {
     width: 100%;
   }
 
+  #sponzori{
+    flex-direction: column;
+  }
+
+  .sponzori-img{
+    width: 100%;
+    padding: 0;
+  }
+
+  .sponzori-text{
+    width: 100%;
+  }
+  
   }
  
 
