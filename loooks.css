@@ -126,18 +126,8 @@ h2 {
   height: 50%;
 }
 
-.button {
-  border: 2px solid #fff;
-  color: #fff;
-  background-color: transparent;
-  padding: 14px 50px;
-  transition: background-color 0.3s ease-in-out;
-  margin: 5px;
-}
-
-.button:hover {
-  background-color:white;
-  color: #000;
+#front-page-navigation{
+  display: none;
 }
 
 
@@ -427,11 +417,17 @@ nav li {
       display: flex;
       justify-content: flex-start;
       align-items: center;
+      padding-top: 15%;
   }
 
+
   .nav-item{
-    font-size: xx-large;
+    font-size: 1.7em;
+  }
+
+  .nav-item1 {
     margin: 5% 0 5% 0;
+    font-size: 1.7em;
   }
 
   .nav-menu.active{
@@ -463,15 +459,101 @@ nav li {
   }
 
   #front-page-navigation{
-    height: 80vh;
+    height: fit-content;
+    display: block;
   }
 
   .front-nav{
     height: 100%;
   }
 
+  .front-img{
+    position: relative;
+    height: 20vh;
+    width: fit-content;
+  }
+
+  .front-img img{
+    width: 100%;
+    height: 100%;
+  }
+
   .gray{
     color: gray;
+  }
+
+  .footer{
+    width: 100%;
+    padding: 5%;
+  }
+
+  #Onama{
+    flex-direction: column;
+  }
+
+  .img-onama{
+    width: 100%;
+    padding: 0;
+  }
+
+  .img-onama img:nth-child(2){
+    display: none;
+  }
+
+  .text-onama{
+    width: 100%;
+  }
+
+  #RadSaDjecom-content{
+    flex-direction: column-reverse;
+  }
+
+  .rad-img{
+    width: 100%;
+    padding: 0;
+  }
+
+  .rad-img1{
+    width: 100%;
+    padding: 0;
+  }
+
+  .rad-img1 img{
+    width: 100%;
+  }
+
+  .rad-img img:nth-child(1){
+    display: none;
+  }
+
+  .rad-text{
+    width: 100%;
+  }
+
+  #reprezent-cont{
+    flex-direction: column-reverse;
+  }
+
+  .reprezent-img{
+    width: 100%;
+    padding: 0;
+  }
+
+  .reprezent-img img:nth-child(1){
+    display: none;
+  }
+
+  .reprezent-img1{
+    width: 100%;
+    padding: 0;
+  }
+
+  .reprezent-img1 img{
+    width: 100%;
+  }
+
+  .reprezent-text{
+    width: 100%;
   }
 
   }
