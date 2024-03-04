@@ -19,23 +19,6 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click" ,
 }))
 
 
-function toggleExpand(item) {
-    const expandContent = item.querySelector('.expand-content');
-    const allExpandContents = document.querySelectorAll('.expand-content');
-  
-    if (expandContent.classList.contains('active')) {
-      expandContent.classList.remove('active');
-      item.querySelector('.toggle-icon').innerText = '+';
-    } else {
-      allExpandContents.forEach(content => {
-        content.classList.remove('active');
-      });
-      expandContent.classList.add('active');
-      item.querySelector('.toggle-icon').innerText = '-';
-    }
-  }
-
-
   document.addEventListener('DOMContentLoaded', function() {
     var img = document.getElementById('myImage');
     

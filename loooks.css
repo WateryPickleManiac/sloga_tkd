@@ -372,7 +372,9 @@ font-weight: 300;
 /* Media query for screens up to 767px width (e.g., smartphones) */
 @media screen and (max-width: 767px) {
 header {
-  position:sticky;
+  position:absolute;
+  width: 100%;
+  margin-right: 10%;
 }
 
 .navbar{
@@ -415,7 +417,7 @@ nav li {
       gap:0;
       top: 0;
       flex-direction: column;
-      background-color: red;
+      background-color: darkred;
       width: 100%;
       text-align: center;
       transition: 0.3s;
@@ -425,11 +427,11 @@ nav li {
       display: flex;
       justify-content: flex-start;
       align-items: center;
-      padding-top: 100px;
   }
 
   .nav-item{
-      font-size: xx-large;
+    font-size: xx-large;
+    margin: 5% 0 5% 0;
   }
 
   .nav-menu.active{
@@ -444,136 +446,32 @@ nav li {
     color: white;
   }
 
-  .hero-text{
-    padding: 5%;
-    font-size: 2em;
-    
+  .description{
+    display: none;
   }
 
-  .hero-text h1{
-    width: 50%;
+  .sponsor-part{
+    height: 10vh;
   }
 
+  .sponsor-part img{
+    height: 35%;
+  }
 
-  .intro-container{
-    display: flex;
-    flex-direction: column-reverse;
-    width: 100%;
+  .sponsor-part a {
+    height: 135px;
+  }
+
+  #front-page-navigation{
+    height: 80vh;
+  }
+
+  .front-nav{
     height: 100%;
-    margin-bottom: 50px;
-    padding: 0;
-    margin-top: 40px;
   }
 
-  .intro-text{
-    display: flex;
-    width: 100%;
-    height: 52%;
-    flex-direction: column;
-    justify-content: center;
-    padding: 5%;
-  }
-
-  .intro-img{
-    height: 50%;
-    width: 100%;
-    overflow: hidden;
-  }
-
-  .intro-img img{
-    width: 130%;
-  }
-
-  #Achievements{
-    height: fit-content;
-  }
-
-  .achhievement-title{
-    height: 55%;
-  }
-
-  .achhievement-title h1{
-    font-size: 4em;
-  }
-
-  .achievement1 img{
-    width: 100%;
-  }
-  
-  .achievement2 img{
-    width: 100%;
-  }
-
-  .achievement-nums{
-    margin-top: 20px;
-    width: 100%;
-  }
-
-  .number{
-    font-size: 5em;
-  }
-
-  .middle{
-    text-align: center;
-  }
-
-  #QANDA{
-    font-size: 3em;
-    height: fit-content;
-  }
-
-  #QANDA h2{
-    font-size: 1em;
-  }
-
-  .qanda-cont{
-    flex-direction: column;
-  }
-  .QANDA-container{
-    width: 100%;
-    font-size: 15px;
-  }
-
-  .background-qanda{
-    width: 85%;
-  }
-
-  .background-stripe{
-    transform: rotate(344deg);
-  }
-  
-  #Social-media{
-    flex-direction: column;
-    align-items: normal;
-  }
-
-  .gallery-container{
-    width: 100%;
-    gap: 5px;
-  }
-
-  .social-text{
-    width: 50%;
-    font-size: 2em;
-    margin-left:10px ;
-  }
-
-  .raspored-text{
-    font-size: 2em;
-  }
-
-  .Raspored-container th, td{
-    padding: 3px;
-  }
-
-  .program-text{
-    height: 400px;
-    padding: 25px;
-  }
-
-  .forma-container{
-    flex-direction: column-reverse;
-    padding: 40px;
+  .gray{
+    color: gray;
   }
 
   }
