@@ -447,7 +447,7 @@ nav li {
 
   .nav-item1 {
     margin: 5% 0 5% 0;
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
 
   .nav-menu.active{
@@ -490,9 +490,11 @@ nav li {
   }
 
   .front-img{
-    position: relative;
-    height: 35vh;
+    position: absolute;
+    height: 48vh;
     width: fit-content;
+    z-index: -1;
+    right: 0px;
   }
 
   .front-img img{
