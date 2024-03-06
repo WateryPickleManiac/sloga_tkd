@@ -471,7 +471,7 @@ nav li {
   }
 
   .sponsor-part img{
-    height: 35%;
+    height: 33%;
   }
 
   .sponsor-part a {
@@ -491,10 +491,11 @@ nav li {
 
   .front-img{
     position: absolute;
-    height: 48vh;
+    height: 404px;
     width: fit-content;
     z-index: -1;
     right: 0px;
+    width: 217px;
   }
 
   .front-img img{
