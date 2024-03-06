@@ -4,4 +4,5 @@ deployment:
     - export DEPLOYPATH=/home/tkdsloga/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp loooks.css $DEPLOYPATH
+
     
