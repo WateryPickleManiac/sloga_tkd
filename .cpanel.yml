@@ -1,8 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/tkdsloga/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp loooks.css $DEPLOYPATH
+    - /bin/cp /path/to/index.html /home/tkdsloga/public_html/
+    - /bin/cp /path/to/loooks.css /home/tkdsloga/public_html/
 
-    
+
