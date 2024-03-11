@@ -35,6 +35,31 @@ h2 {
   margin: 0;
 }
 
+.languages{
+  height: 3vh;
+  background: red;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.lang-cont{
+  width: 80%;
+  background: white;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.lang{
+  display: flex;
+  width: 35px;
+}
+
+
+
+
+
 .navbar{
   height: 10vh;
   display: flex;
@@ -422,22 +447,23 @@ nav li {
   }
 
   .nav-menu{
-      position:fixed;
-      left: 100%;
-      gap:0;
-      top: 0;
-      flex-direction: column;
-      background-color: darkred;
-      width: 100%;
-      text-align: center;
-      transition: 0.3s;
-      margin: 0;
-      height: 100%;
-      padding: 0;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      padding-top: 15%;
+    position: fixed;
+    left: 100%;
+    gap: 0;
+    top: 0;
+    flex-direction: column;
+    background-color: darkred;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 15%;
+    padding-left: 15%;
   }
 
 
@@ -460,6 +486,10 @@ nav li {
   }
   .nav-link{
     color: white;
+  }
+
+  .languages{
+    display: none;
   }
 
   .description{
