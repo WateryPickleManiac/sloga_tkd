@@ -37,10 +37,10 @@ h2 {
 
 .languages{
   height: 3vh;
-  background: red;
   width: 100%;
   display: flex;
   justify-content: center;
+  border-bottom: 1px solid rgba(0,0,0,.05);
 }
 
 .lang-cont{
@@ -49,11 +49,23 @@ h2 {
   height: 100%;
   display: flex;
   justify-content: flex-end;
+  gap: 60px;
 }
 
 .lang{
   display: flex;
-  width: 35px;
+  width: fit-content;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.lang a{
+  height: 80%;
+}
+
+.lang img{
+  height: 80%;
 }
 
 
@@ -253,7 +265,8 @@ font-weight: 300;
 
 .header-center{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 #Onama{
