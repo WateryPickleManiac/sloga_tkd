@@ -3,5 +3,5 @@ deployment:
   tasks:
     - /bin/cp /path/to/index.html /home/tkdsloga/public_html/
     - /bin/cp /path/to/loooks.css /home/tkdsloga/public_html/
-
+    - /bin/cp /path/to/function.js /home/tkdsloga/public_html/
 
