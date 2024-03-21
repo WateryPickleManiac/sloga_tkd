@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - /bin/cp /path/to/index.html /home/tkdsloga/public_html/
-    - /bin/cp /path/to/loooks.css /home/tkdsloga/public_html/
+    /bin/cp -r /path/to/directory /home/tkdsloga/public_html/
+
 
 
