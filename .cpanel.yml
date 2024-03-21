@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    /bin/cp -r /path/to/directory /home/tkdsloga/public_html/
+    /bin/cp -r /path/to/directory /home/tkdsloga/repositories/
 
 
 
