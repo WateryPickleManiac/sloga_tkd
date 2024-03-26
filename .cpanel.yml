@@ -1,8 +1,23 @@
 ---
 deployment:
   tasks:
-    /bin/cp -r /path/to/directory /home/tkdsloga/repositories/
-    
+    - export:
+      deployment_dir: public_html
+      include:
+      - sajt_de
+      - sajt_en
+      - functions.js
+      - GdjeSeNalazimo.html
+      - index.html
+      - Kontakt.html 
+      - loooks.css
+      - Novosti.html
+      - Onama.html
+      - RadSaDjecom.html
+      - Reprezentativci.html
+      - Sponzori.html
+      - TrenerskiKadar.html
+
 
 
 
