@@ -2,6 +2,7 @@
 deployment:
   tasks:
     /bin/cp -r /path/to/directory /home/tkdsloga/repositories/
+    
 
 
 
