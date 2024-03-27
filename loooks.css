@@ -95,11 +95,12 @@ h2 {
 }
 
 .lang a{
-  height: 80%;
+  text-decoration: none;
+  color: black;
 }
 
 .lang img{
-  height: 80%;
+  height: 25px;
 }
 
 
@@ -536,7 +537,37 @@ nav li {
   }
 
   .languages{
-    display: none;
+    height: 28vh;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    left: 0;
+    position: absolute;
+    z-index: 3;
+    margin: 10px;
+    background: transparent;
+  }
+
+  .lang-cont{
+    width: 100%;
+    background: white;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 60px;
+    flex-direction: column;
+    background: transparent;
+    color: white;
+  }
+
+  .lang a{
+    color: white;
+  }
+
+  .lang img{
+    height: 35px;
+    width: 100%;
   }
 
   .description{
