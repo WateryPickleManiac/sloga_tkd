@@ -4,6 +4,7 @@ const navMenuActive = document.querySelector(".nav-menu .active");
 const navbar = document.querySelector(".navbar");
 
 
+
 window.addEventListener('load', function() {
   var loadingScreen = document.getElementById('loading-screen');
   loadingScreen.style.display = 'none';
@@ -32,3 +33,4 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click" ,
     }
   });
   
+
