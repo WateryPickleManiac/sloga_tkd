@@ -554,6 +554,10 @@ nav li {
     color: white;
   }
 
+  .languages1{
+    display: none;
+  }
+
   .languages{
     height: 28vh;
     width: 15%;
