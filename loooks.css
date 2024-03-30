@@ -571,8 +571,8 @@ nav li {
     background: white;
     height: 100%;
     display: flex;
-    justify-content: flex-start;
-    gap: 50px;
+    justify-content: center;
+    gap: 40px;
     flex-direction: column;
     background: transparent;
     color: white;
@@ -593,11 +593,11 @@ nav li {
   }
 
   .sponsorses{
-    height: 20vh;
+    height: 16vh;
   }
 
   .sponzori-dio{
-    width: 100%;
+    width: 95%;
   }
 
   .sponzori-dio video{
