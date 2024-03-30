@@ -578,6 +578,20 @@ nav li {
     display: none;
   }
 
+  .sponsorses{
+    height: 20vh;
+  }
+
+  .sponzori-dio{
+    height: 100%;
+  }
+
+  .sponzori-dio video{
+    height: 100%;  
+    width: 100%;
+  }
+
+
   .sponsor-part{
     height: 10vh;
     width: 100%;
