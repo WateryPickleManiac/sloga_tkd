@@ -237,6 +237,20 @@ body, html {
 
 }
 
+.sponsorses{
+  width: 100%;  
+  display: flex;
+  justify-content: center;
+}
+
+.sponzori-dio{
+  width: 80%;  
+}
+
+.sponzori-dio video{
+  width: 100%;
+}
+
 .footer {
 position: relative;
 width: 80%;
@@ -583,7 +597,7 @@ nav li {
   }
 
   .sponzori-dio{
-    height: 100%;
+    width: 100%;
   }
 
   .sponzori-dio video{
