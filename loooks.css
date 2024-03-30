@@ -470,9 +470,9 @@ font-weight: 300;
 @media screen and (max-width: 767px) {
 header {
   position:absolute;
-  width: 100%;
-  margin-right: 10%;
+  width: 75%;
   z-index: 7;
+  right: 0;
 }
 
 .navbar{
@@ -497,6 +497,8 @@ nav li {
 
   .hamburger{
       display: block;
+      right: 5%;
+      position: fixed;
   }
 
   .hamburger.active .bar:nth-child(2){
@@ -563,7 +565,6 @@ nav li {
     z-index: 3;
     margin: 10px;
     background: transparent;
-    top: 30px;
   }
 
   .lang-cont{
@@ -572,7 +573,7 @@ nav li {
     height: 100%;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
     flex-direction: column;
     background: transparent;
     color: white;
