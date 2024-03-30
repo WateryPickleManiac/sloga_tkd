@@ -244,10 +244,25 @@ body, html {
 }
 
 .sponzori-dio{
-  width: 80%;  
+  width: 80%;
+  display: grid;
+  grid-template-areas: "proda-ad progres-ad"
+                        "grad-promet-ad monter-luzani-ad";  
 }
 
-.sponzori-dio video{
+.proda-ad video {
+  width: 100%;
+}
+
+.progres-ad img{
+  width: 100%;
+}
+
+.grad-promet-ad img{
+  width: 100%;
+}
+
+.monter-luzani-ad img{
   width: 100%;
 }
 
@@ -598,17 +613,20 @@ nav li {
   }
 
   .sponsorses{
-    height: 17vh;
+    height: fit-content;
   }
 
   .sponzori-dio{
     width: 95%;
+    display: flex;
+    flex-direction:column;
   }
 
   .sponzori-dio video{
     height: 100%;  
     width: 100%;
   }
+  /* ovo je odvojeno*/
 
 
   .sponsor-part{
