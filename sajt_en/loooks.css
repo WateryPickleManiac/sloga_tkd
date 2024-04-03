@@ -255,7 +255,9 @@ body, html {
   width: 80%;
   display: grid;
   grid-template-areas: "proda-ad progres-ad"
-                        "grad-promet-ad monter-luzani-ad";  
+                        "grad-promet-ad monter-luzani-ad"
+                        "grad-doboj-ad karabegovac-ad"
+                        "termo-tanasic-ad geokop-ad";  
 }
 
 .proda-ad video {
@@ -273,6 +275,23 @@ body, html {
 .monter-luzani-ad img{
   width: 100%;
 }
+
+.grad-doboj-ad img{
+  width: 100%;
+}
+
+.karabegovac-ad img{
+  width: 100%;
+}
+
+.termo-tanasic-ad img{
+  width: 100%;
+}
+
+.geokop-ad img{
+  width: 100%;
+}
+
 
 .footer {
 position: relative;
