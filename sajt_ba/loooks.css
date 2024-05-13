@@ -441,7 +441,7 @@ font-weight: 300;
 
 .sponzori-img img{
   width: 100%;
-  
+
 }
 
 .sponzori-text{
@@ -777,6 +777,12 @@ nav li {
   }
 
   .sponzori-text{
+    width: 100%;
+  }
+
+  .news-container{
+    display: flex;
+    flex-direction: column;
     width: 100%;
   }
   
