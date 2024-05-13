@@ -449,6 +449,46 @@ font-weight: 300;
   color: gray;
 }
 
+.news-container{
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  grid-template-rows: auto;
+}
+
+.news-item{
+  background: white;
+  border-radius: 2%;
+  overflow: hidden;
+  border:1px solid lightgray;
+}
+
+.news-item:hover{
+  box-shadow: 0 8px 8px 0 gray;
+  transition: 0.5s;
+}
+
+.news-img{
+  width: 100%;
+  height: 48%;
+  overflow: hidden;
+}
+
+.news-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.news-text{
+  padding: 10px;
+}
+
+.news-text p{
+  color: gray;
+}
+
 /* Regular styles for larger screens */
 
 /* Media query for screens up to 767px width (e.g., smartphones) */
