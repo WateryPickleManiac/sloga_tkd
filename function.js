@@ -65,7 +65,7 @@ function toggleLanguage(language) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
+  const savedLanguage = localStorage.getItem('selectedLanguage') || 'srb';
   changeLanguage(savedLanguage);
 });
 
