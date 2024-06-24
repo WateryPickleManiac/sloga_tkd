@@ -586,7 +586,7 @@ font-weight: 300;
 /* Regular styles for larger screens */
 
 /* Media query for screens up to 767px width (e.g., smartphones) */
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 767px) {
 header {
   position:absolute;
   width: 75%;
