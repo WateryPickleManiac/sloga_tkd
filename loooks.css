@@ -526,9 +526,8 @@ font-weight: 300;
 
 .news-item{
   background: white;
-  border-radius: 2%;
   overflow: hidden;
-  border:1px solid lightgray;
+  height: 600px;
 }
 
 .news-item:hover{
@@ -548,19 +547,46 @@ font-weight: 300;
   object-fit: cover;
 }
 
-.news-text{
-  padding: 10px;
-}
+
 
 .news-text p{
   color: gray;
 }
 
+#Kontakt{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: fit-content;
+}
+
+.kontakt{
+  display: flex;
+
+  width: 80%;
+  height: 65vh;
+}
+
+.telefon{
+  margin: auto auto auto 20%;
+}
+
+.mejl{
+  margin: auto auto auto 20%;
+}
+
+.telefon h2{
+  color: gray;
+}
+
+.mejl h2{
+  color: gray;
+}
 
 /* Regular styles for larger screens */
 
 /* Media query for screens up to 767px width (e.g., smartphones) */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 468px) {
 header {
   position:absolute;
   width: 75%;
@@ -914,6 +940,8 @@ nav li {
   .news-container{
     display: flex;
     flex-direction: column;
+    width: 95%;
+    margin-top: 10px;
   }
   
   }

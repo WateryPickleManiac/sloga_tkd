@@ -54,11 +54,6 @@ function changeLanguage(language) {
       .catch(error => console.error('Error loading translation:', error));
 }
 
-function updateActiveButton(language) {
-  document.querySelectorAll('.language-switcher button').forEach(button => {
-      button.classList.toggle('active', button.getAttribute('onclick').includes(language));
-  });
-}
 
 function toggleLanguage(language) {
   changeLanguage(language);
