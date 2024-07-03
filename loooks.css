@@ -494,33 +494,25 @@ font-weight: 300;
   
 }
 
-.hero-img-kikboks{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/pw/AP1GczNAk9Bt5vrP0MgnmhWDiRpK423ro7OywarC-OYa5GmcXeRIav0y6RFeVz4iGnsyQkc2fyS_508pV4kl3NJeWmv8GXqoAjUujzbtxwS3BSsvsuf5R0WJNLMZcfg4oORp32zYttTTiFD-gS-1GrZqMbvr=w545-h513-s-no-gm?authuser=0");
-  height: 50vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  font-size: xx-large;
-}
-
 .kick-box-layout{
   display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
 }
 
-.kikboks-text{
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
 
 .kikboks-description{
-  width: 60%;
-  padding: 5%;
+  width: 40%;
+  padding: 1%;
   color: gray;
+}
+
+.kik-boks-img{
+  width: 40%;
+}
+
+.kik-boks-img img{
+  width: 100%;
 }
 
 .kik-boks-img-phone{
@@ -950,31 +942,39 @@ nav li {
     width: 100%;
   }
 
-  #sponzori{
-    flex-direction: column;
-  }
-
-  .sponzori-img{
-    width: 100%;
-    padding: 0;
-  }
-
-  .sponzori-text{
-    width: 100%;
-  }
-
   .news-container{
     grid-template-columns: repeat(1, 100%);
     width: 95%;
     margin-top: 10px;
   }
-  
-  .hero-img-kikboks{
-    display: none;
+
+  #Kick-box{
+    width: 100%;
+    margin: 0;
+  }
+
+  .kick-box-layout{
+    flex-direction: column;
   }
 
   .kik-boks-img-phone{
     display: block;
+  }
+
+  .kik-boks-img-phone img{
+    width: 100%;
+  }
+
+  .kik-boks-img img:nth-child(1){
+    display: none;
+  }
+
+  .kikboks-description{
+    width: 100%;
+  }
+
+  .kik-boks-img{
+    width: 100%;
   }
 
   }
