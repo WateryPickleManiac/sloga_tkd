@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', function() {
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 const navMenuActive = document.querySelector(".nav-menu .active");
@@ -22,7 +24,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click" ,
 }))
 
 
-  document.addEventListener('DOMContentLoaded', function() {
+  
     var img = document.getElementById('myImage');
     
     if (window.innerWidth < 768) {
@@ -30,7 +32,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click" ,
     } else {
       img.src = "https://lh3.googleusercontent.com/pw/AP1GczOXDgERh918MfLwttxvY4dsRozvceng8073Fkl6ULsR4uBRMh_6ZuQY6ySY1n7n1NCVifOMMQ8ise2jJMXYEt-WYrjHu1INv-LeSAinsXNsLlVz5DCl30yle6p-BvYDNl_1hhrqdhWBJKaHsYwZ0mdU=w1440-h578-s-no-gm?authuser=0";
     }
-  });
+  
   
   const languageFlags = {
     en: "https://lh3.googleusercontent.com/pw/AP1GczMQ1wepx53rXXjpqptsnoiCiKUmokLVyiSV2UtJt9VNQV05Q6pVmDAzcvxS64TewnFHX1-xfzz09G_-cFrDs90YeR_oarc60KS9kxDn34AIQtX8UlmNsT44R1_NkNRWMkhNmwi_oinPFPb4dDlEa3iy=w318-h159-s-no-gm?authuser=0",
@@ -64,4 +66,5 @@ document.addEventListener('DOMContentLoaded', () => {
   changeLanguage(savedLanguage);
 });
 
+});
 
