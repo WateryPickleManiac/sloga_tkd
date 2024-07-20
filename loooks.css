@@ -624,6 +624,11 @@ nav li {
 
 .hero-video-container{
   height: fit-content;
+  margin: 0;
+}
+
+#sponsor-section{
+  width: 100%;
 }
 
 .hero-video-container img{
