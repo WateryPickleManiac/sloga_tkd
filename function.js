@@ -20,10 +20,10 @@ function closeNavMenu() {
     navbar.classList.remove("navbar-fixed");
 }
 
-function updateImageSrc(){    
+function updateImageSrc(){ 
     if (window.innerWidth < 768) {
       img.src = "https://lh3.googleusercontent.com/pw/AP1GczPzSjKg1A1Aj6jxcvwJ9ZOzrX3OuoD4ZU3SOYCRETmtNJC-wtc-3iKHL4IKvNp6h-SMyart0K_GeYmH8tOfgNeWFTyLnMQnOxRudN5CKLsrv20k_aAcq7PVet1gorB1ywnWeKuhVCcOZIVQXYSSGCyf=w739-h953-s-no-gm?authuser=0";
-    } else {
+    } else{
       img.src = "https://lh3.googleusercontent.com/pw/AP1GczOXDgERh918MfLwttxvY4dsRozvceng8073Fkl6ULsR4uBRMh_6ZuQY6ySY1n7n1NCVifOMMQ8ise2jJMXYEt-WYrjHu1INv-LeSAinsXNsLlVz5DCl30yle6p-BvYDNl_1hhrqdhWBJKaHsYwZ0mdU=w1440-h578-s-no-gm?authuser=0";
     }
   }
