@@ -79,3 +79,4 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 //update image source on window resize 
 window.addEventListener('resize',updateImageSrc);
+
